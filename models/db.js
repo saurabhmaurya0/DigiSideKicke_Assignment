@@ -1,5 +1,4 @@
 const mongoose = require('mongoose');
-// Allow Promises
 mongoose.Promise = global.Promise;
 // Connection
 mongoose.connect('mongodb://localhost:27017/db_test', { useNewUrlParser: true,useUnifiedTopology:true,useFindAndModify:false  });

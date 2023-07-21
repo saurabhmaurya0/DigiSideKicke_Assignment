@@ -80,7 +80,7 @@ class EditStudent extends Component {
             value={ this.state.enrollnumber }
             name="enrollnumber"
             min="1"
-            max="120"
+            max="500"
             required
             onChange={this.onChangeHandler}
             ref="enrollnumber"

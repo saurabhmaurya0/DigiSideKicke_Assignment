@@ -63,10 +63,10 @@ class AddStudent extends Component {
           <label htmlFor="enrollnumber">Enrollment Number: </label>
           <input
             type="number"
-            placeholder="0 to 120"
+            placeholder="0 to 500"
             name="enrollnumber"
             min="1"
-            max="120"
+            max="500"
             onChange={this.onChangeHandler}
             ref="enrollnumber"
             className="Add-Student-Input"
