@@ -5,6 +5,8 @@ This is a simple crud project for beginners built with the following technologie
 - [Express](http://expressjs.com/) and [Mongoose](http://mongoosejs.com/) for the backend
 
 
+
+
 ```shell
 npm install
 ```
@@ -22,5 +24,3 @@ npm start
 cd client && npm start
 ```
 
-## Contributions
-Contributions are welcome. Just submit a PR and I will make sure to review it 😸
